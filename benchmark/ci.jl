@@ -53,7 +53,7 @@ const EXTRA_PKGS = String[
     "Dates", "Random", "Distributed", "InteractiveUtils",
     # JSON3 is only a *weakdep* of Dagger, so it is not installed automatically
     # with Dagger; the orchestrator/worker need it for their file-based IPC.
-    "JSON3",
+    #"JSON3",
 ]
 # MPI is only needed (and only installed) when the caller requests an MPI
 # benchmark run (see benchmark/benchmarks.jl's BENCHMARK_MPI_RANKS), so the
